@@ -53,3 +53,4 @@ EXPOSE 27000-27009
 #########################################
 COPY ./entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["-c", "/var/flexlm/plexim.lic"]
