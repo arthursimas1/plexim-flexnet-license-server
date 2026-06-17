@@ -49,6 +49,10 @@ Using the `-l` flag will redirect the output away from stdout, causing `docker l
 
 ## Troubleshooting
 
+### Official Documentation
+
+For more detailed information on configuring the license server, using `lmutil` commands, and advanced troubleshooting, please refer to the included [FlexNet License Administration Guide](./assets/FLEXlm-License-Administration11.6.1.pdf).
+
 ### Finding your LMHostID
 
 When the container starts, the entrypoint automatically prints your `lmhostid` to the console before starting the server. You can view this by checking the container logs.
